@@ -493,18 +493,18 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <form id="contact-form">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name" required id="name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required />
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required id="email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required />
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject" required id="subject">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required />
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Your Message" required id="message"></textarea>
+                            <textarea class="form-control" id="message" name="message" placeholder="Your message" required></textarea>
                         </div>
                         <button type="submit" class="btn" id="submitBtn">Send Message</button>
                     </form>
@@ -854,6 +854,9 @@
         </section>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="assets/js/script.js"></script>
     
 </body>
