@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vedant Kokare - Full Stack Java Developer specializing in Java, Spring Boot, and responsive web applications.">
+    <title>Vedant Kokare | Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Vedant<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Vedant Kokare</span></h1>
+                    <p>A passionate Full Stack Java Developer with expertise in building scalable web applications and responsive user interfaces.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                        <a href="assets/resume/Vedant Resume.pdf" class="btn btn-resume" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="code-container">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <div class="dot red"></div>
+                                <div class="dot yellow"></div>
+                                <div class="dot green"></div>
+                            </div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="code-keyword">public class</span> <span class="code-function">VedantKokare</span> {</div>
+                            <div class="code-line">&nbsp;&nbsp;<span class="code-keyword">public static void</span> <span class="code-function">main</span>(String[] args) {</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;System.<span class="code-function">out</span>.println(<span class="code-string">"Full Stack Developer"</span>);</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;System.<span class="code-function">out</span>.println(<span class="code-string">"Java | Spring Boot | MySQL"</span>);</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;System.<span class="code-function">out</span>.println(<span class="code-string">"HTML | CSS | JavaScript"</span>);</div>
+                            <div class="code-line">&nbsp;&nbsp;}</div>
+                            <div class="code-line">}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <span class="skill-name">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <span class="skill-name">Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <span class="skill-name">Servlet</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <span class="skill-name">GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <span class="skill-name">Command Line</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <span class="skill-name">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Learn more about my background and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Vedant Kokare</h3>
+                    <p>I'm a detail-oriented and motivated Full Stack Java Developer with strong expertise in both front-end and back-end technologies. I'm passionate about building scalable applications and eager to contribute to growth-driven organizations.</p>
+                    <p>My expertise includes designing responsive user interfaces, implementing business logic, and managing databases efficiently. I enjoy solving complex problems and creating efficient, maintainable code.</p>
+                    
+                    <div class="skills">
+                        <div class="skill-item-bar">
+                            <div class="skill-info">
+                                <span>Java & Spring Boot</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item-bar">
+                            <div class="skill-info">
+                                <span>Frontend Development</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item-bar">
+                            <div class="skill-info">
+                                <span>Database Management</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Clean Code</h4>
+                        <p>Writing maintainable and efficient code following best practices</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Responsive Design</h4>
+                        <p>Creating applications that work seamlessly across all devices</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-rocket"></i>
+                        <h4>Fast Performance</h4>
+                        <p>Optimizing applications for speed and efficiency</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Database Design</h4>
+                        <p>Designing and managing efficient database structures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="portfolio" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+                <p>Check out some of my recent work</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="java">Java</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="csharp">C#</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="java">
+                    <div class="project-carousel" id="carousel-budgetbee">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1011&q=80" alt="Budget Bee Dashboard">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Budget Bee Expenses">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Budget Bee Reports">
+                            </div>
+                        </div>
+                        <button class="carousel-btn carousel-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn carousel-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Budget Bee</h3>
+                        <p>Full-stack expense tracker with features for tracking income, expenses, and budgeting through a responsive dashboard and secure backend.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">JSP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <a href="#project-budgetbee" class="portfolio-link view-detail" data-project="budgetbee">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="java">
+                    <div class="project-carousel" id="carousel-recordhandler">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Record Handler Interface">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1115&q=80" alt="Record Handler Database">
+                            </div>
+                        </div>
+                        <button class="carousel-btn carousel-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn carousel-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Record-Handler</h3>
+                        <p>Java application demonstrating foundational database operations with create, read, update, and delete (CRUD) functions on structured datasets.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Servlet</span>
+                            <span class="tech-tag">JSP</span>
+                            <span class="tech-tag">CRUD</span>
+                        </div>
+                        <a href="#project-recordhandler" class="portfolio-link view-detail" data-project="recordhandler">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="csharp">
+                    <div class="project-carousel" id="carousel-gymmemberhandler">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Gym Member Handler Dashboard">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Gym Member Handler Members">
+                            </div>
+                        </div>
+                        <button class="carousel-btn carousel-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn carousel-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Gym-Member-Handler</h3>
+                        <p>Desktop application to manage gym operations, including modules for member and employee record tracking, attendance, and fee management.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Windows Forms</span>
+                            <span class="tech-tag">Desktop App</span>
+                        </div>
+                        <a href="#project-gymmemberhandler" class="portfolio-link view-detail" data-project="gymmemberhandler">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="project-carousel" id="carousel-responsivewebsite">
+                        <div class="carousel-track">
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="E-commerce Homepage">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="E-commerce Products">
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1112&q=80" alt="E-commerce Cart">
+                            </div>
+                        </div>
+                        <button class="carousel-btn carousel-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn carousel-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <div class="carousel-dot active"></div>
+                            <div class="carousel-dot"></div>
+                            <div class="carousel-dot"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Responsive E-commerce Website</h3>
+                        <p>Fully responsive e-commerce website for gamers, featuring a modern UI with dedicated pages for home, products, and about sections.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <a href="#project-responsivewebsite" class="portfolio-link view-detail" data-project="responsivewebsite">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+                <p>My academic background and achievements</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <h3>Bachelor of Computer Science</h3>
+                        <p>Dr. Ganpatrao Deshmukh Mahavidyalaya, Sangola</p>
+                        <p>Percentage: 73%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <h3>H.S.C</h3>
+                        <p>GuruNanak English High School & Jr. College, Mumbai</p>
+                        <p>Percentage: 45.67%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - 2020</div>
+                        <h3>S.S.C</h3>
+                        <p>Little Flower English High School</p>
+                        <p>Percentage: 72.80%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023</div>
+                        <h3>Achievement</h3>
+                        <p>Secured 3rd Prize in Web Designing Competition at Technotsav, Sangola.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <p>Get in touch for collaborations or opportunities</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Mumbai, Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 9920765762</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>vedantkokare81@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Online Profiles</h3>
+                            <p>GitHub: <a href="https://github.com/vedantkokare" class="app-link">vedantkokare.github.com</a></p>
+                            <p>LinkedIn: <a href="https://www.linkedin.com/in/vedantkokare/" class="app-link">vedantkokare.linkedin.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required id="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required id="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required id="subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required id="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn" id="submitBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Vedant Kokare</h3>
+                    <p>Full Stack Java Developer specializing in building scalable web applications with modern technologies.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/vedantkokare"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vedantkokare/"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills-section">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Java Applications</a></li>
+                        <li><a href="#">Database Design</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</li>
+                        <li><i class="fas fa-phone"></i> +91 9920765762</li>
+                        <li><i class="fas fa-envelope"></i> vedantkokare81@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Vedant Kokare. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Detail Pages -->
+    <div id="project-detail-container" style="display: none;">
+        <!-- Budget Bee Detail Page -->
+        <section class="project-detail" id="project-budgetbee">
+            <div class="container">
+                <a href="#projects" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                <div class="project-header">
+                    <h1>Budget Bee</h1>
+                    <div class="project-meta">
+                        <div class="project-meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>2025</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-tag"></i>
+                            <span>Java, Spring Boot</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-main">
+                        <div class="image-placeholder">
+                            <img src="assets/images/BudgetBee-Dashboard.png" alt=" Budget Bee Dashboard" width="100%" height="100%">
+                        </div>
+                        <div class="project-description">
+                            <h2>Project Overview</h2>
+                            <p>Budget Bee is a comprehensive full-stack expense tracking application designed to help users manage their finances effectively. The application provides a user-friendly dashboard for tracking income, expenses, and budgeting with secure backend operations.</p>
+                            <p>The system allows users to categorize transactions, set budget limits, and generate financial reports. It features a responsive design that works seamlessly across devices, ensuring accessibility from both desktop and mobile platforms.</p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Income and expense tracking with categorization</li>
+                                <li>Budget setting and monitoring with visual indicators</li>
+                                <li>Financial reporting with charts and analytics</li>
+                                <li>User authentication and secure data handling</li>
+                                <li>Responsive dashboard with intuitive UI</li>
+                                <li>Data export functionality for financial records</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies Used</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-item">Java</span>
+                                <span class="tech-item">Spring Boot</span>
+                                <span class="tech-item">JSP</span>
+                                <span class="tech-item">MySQL</span>
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">CSS3</span>
+                                <span class="tech-item">JavaScript</span>
+                                <span class="tech-item">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-sidebar">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vedantkokare/BudgetBee" target="_blank" class="btn btn-accent project-detail-header">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Details</h3>
+                            <p><strong>Status:</strong> Completed</p>
+                            <p><strong>Duration:</strong> 2 months</p>
+                            <p><strong>Team Size:</strong> Solo Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Record Handler Detail Page -->
+        <section class="project-detail" id="project-recordhandler">
+            <div class="container">
+                <a href="#projects" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                <div class="project-header">
+                    <h1>Record Handler</h1>
+                    <div class="project-meta">
+                        <div class="project-meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>2025</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-tag"></i>
+                            <span>Java, Servlet</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-main">
+                        <div class="image-placeholder">
+                            <img src="assets/images/Recordhandler-Add.png" alt=" Budget Bee Dashboard" width="100%" height="100%">
+                        </div>
+                        <div class="project-description">
+                            <h2>Project Overview</h2>
+                            <p>Record Handler is a Java web application that demonstrates foundational database operations through a clean, user-friendly interface. The application implements Create, Read, Update, and Delete (CRUD) functions on structured datasets.</p>
+                            <p>This project serves as an excellent example of server-side Java development using Servlets and JSP, showcasing proper MVC architecture and database interaction patterns.</p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Complete CRUD operations on database records</li>
+                                <li>User-friendly web interface for data management</li>
+                                <li>Form validation and error handling</li>
+                                <li>Search and filter functionality</li>
+                                <li>Responsive design for various screen sizes</li>
+                                <li>Secure data processing and storage</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies Used</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-item">Java</span>
+                                <span class="tech-item">Servlet</span>
+                                <span class="tech-item">JSP</span>
+                                <span class="tech-item">MySQL</span>
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">CSS3</span>
+                                <span class="tech-item">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-sidebar">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vedantkokare/Record-Handler" target="_blank" class="btn btn-accent project-detail-header">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Details</h3>
+                            <p><strong>Status:</strong> Completed</p>
+                            <p><strong>Duration:</strong> 1 Week</p>
+                            <p><strong>Team Size:</strong> Solo Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gym Member Handler Detail Page -->
+        <section class="project-detail" id="project-gymmemberhandler">
+            <div class="container">
+                <a href="#projects" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                <div class="project-header">
+                    <h1>Gym Member Handler</h1>
+                    <div class="project-meta">
+                        <div class="project-meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>2024</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-tag"></i>
+                            <span>C#, Windows Forms</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>College Academic Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-main">
+                        <div class="image-placeholder">
+                            <img src="assets/images/Gym-Management.png" alt=" Budget Bee Dashboard" width="100%" height="100%">
+                        </div>
+                        <div class="project-description">
+                            <h2>Project Overview</h2>
+                            <p>Gym Member Handler is a comprehensive desktop application designed to streamline gym management operations. The application provides modules for managing member information, employee records, attendance tracking, and fee management.</p>
+                            <p>Built with C# and Windows Forms, this application demonstrates proficiency in desktop application development with a focus on user experience and data management efficiency.</p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Member registration and profile management</li>
+                                <li>Employee record tracking with roles and permissions</li>
+                                <li>Attendance tracking with date and time stamps</li>
+                                <li>Fee management with payment history</li>
+                                <li>Report generation for business analytics</li>
+                                <li>Data backup and recovery functionality</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies Used</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-item">C#</span>
+                                <span class="tech-item">Windows Forms</span>
+                                <span class="tech-item">.NET Framework</span>
+                                <span class="tech-item">SQL Server</span>
+                                <span class="tech-item">Entity Framework</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-sidebar">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vedantkokare/Gym-Member-Handler" target="_blank" class="btn btn-accent project-detail-header">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Details</h3>
+                            <p><strong>Status:</strong> Completed</p>
+                            <p><strong>Duration:</strong> 3 months</p>
+                            <p><strong>Team Size:</strong> Solo Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Responsive Website Detail Page -->
+        <section class="project-detail" id="project-responsivewebsite">
+            <div class="container">
+                <a href="#projects" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                <div class="project-header">
+                    <h1>Responsive E-commerce Website</h1>
+                    <div class="project-meta">
+                        <div class="project-meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>2024</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-tag"></i>
+                            <span>Frontend, Responsive Design</span>
+                        </div>
+                        <div class="project-meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>Personal Project</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-main">
+                        <div class="image-placeholder">
+                            <img src="assets/images/Responsive-website.png" alt=" Budget Bee Dashboard" width="100%" height="100%">
+                        </div>
+                        <div class="project-description">
+                            <h2>Project Overview</h2>
+                            <p>This responsive e-commerce website is designed specifically for gamers, featuring a modern and engaging user interface. The website includes dedicated pages for home, products, about, and contact sections with a focus on user experience.</p>
+                            <p>The design prioritizes mobile-first responsiveness, ensuring optimal viewing and interaction across all device sizes. The website showcases frontend development skills with attention to detail in layout, animations, and user interactions.</p>
+                        </div>
+                        <div class="project-features">
+                            <h3>Key Features</h3>
+                            <ul>
+                                <li>Fully responsive design for all screen sizes</li>
+                                <li>Modern and engaging UI with gaming theme</li>
+                                <li>Product catalog with filtering options</li>
+                                <li>Shopping cart functionality</li>
+                                <li>User account management</li>
+                                <li>Smooth animations and transitions</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <h3>Technologies Used</h3>
+                            <div class="project-tech-stack">
+                                <span class="tech-item">HTML5</span>
+                                <span class="tech-item">CSS3</span>
+                                <span class="tech-item">JavaScript</span>
+                                <span class="tech-item">Bootstrap</span>
+                                <span class="tech-item">jQuery</span>
+                                <span class="tech-item">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-sidebar">
+                        <h3>Project Links</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/vedantkokare/Responsive-Website" target="_blank" class="btn btn-accent project-detail-header">
+                                <i class="fab fa-github"></i> View on GitHub
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3>Project Details</h3>
+                            <p><strong>Status:</strong> Completed</p>
+                            <p><strong>Duration:</strong> 1 week</p>
+                            <p><strong>Team Size:</strong> Solo Project</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
