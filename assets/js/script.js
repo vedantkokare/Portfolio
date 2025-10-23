@@ -33,10 +33,10 @@ themeToggle.addEventListener('click', () => {
 });
 
 // Mobile Menu Toggle
-const hamburger = document.querySelector('.hamburger');
+const menu_Bars = document.querySelector('.menu-bars');
 const navLinks = document.querySelector('.nav-links');
 
-hamburger.addEventListener('click', () => {
+menu_Bars.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 

@@ -226,7 +226,7 @@
             transform: rotate(30deg);
         }
         
-        .hamburger {
+        .menu-bars {
             display: none;
             cursor: pointer;
         }
@@ -789,6 +789,7 @@
             display: flex;
             margin-bottom: 30px;
             align-items: flex-start;
+            justify-content: flex-start;
         }
         
         .contact-icon {
@@ -808,12 +809,21 @@
             font-size: 1.2rem;
         }
         
+        .contact-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+        }
+
         .contact-details h3 {
             margin-bottom: 5px;
+            justify-content: flex-start;
         }
         
         .contact-details p {
             color: var(--gray);
+            justify-content: flex-start;
         }
         
         .contact-form {
@@ -1100,12 +1110,13 @@
                 flex-direction: column;
             }
             
-            .hero-text, .about-text, .contact-info, .contact-form {
+            .hero-text, .about-text, .contact-form {
                 text-align: center;
             }
             
             .hero-btns {
                 justify-content: center;
+                margin-bottom: 1.5rem;
             }
             
             .about-cards {
@@ -1163,7 +1174,7 @@
                 margin: 15px 0;
             }
             
-            .hamburger {
+            .menu-bars {
                 display: block;
             }
             
